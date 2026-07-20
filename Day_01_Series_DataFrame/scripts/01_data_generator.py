@@ -2,7 +2,6 @@
 # Project : Pandas Mastery Bootcamp
 # Day     : 01
 # Topic   : Data Generator
-# Company : Zomato
 # ==========================================================
 
 import random
@@ -138,7 +137,6 @@ df.to_csv(
     output_path / "orders.csv",
     index=False
 )
-
 print("=" * 60)
 print("Dataset Generated Successfully")
 print("=" * 60)
